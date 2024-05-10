@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
 html {
   color-scheme: only dark;
+  background-image: url(hecker.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
 }
 main h1 {
   text-align: center;
