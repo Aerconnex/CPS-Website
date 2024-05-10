@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+html {
+  color-scheme: only dark;
+}
+h1 {
+  text-align: center;
+  font-family: 'Briem Hand', 'Source Sans Pro', sans-serif;
+  font-weight: normal;
+}
+.video {
+  background-image: url(doodle.png);
+  height: 100vh;
+  width: auto;
+  background-repeat: no-repeat;
+}
+main {
+  display: grid;
+  justify-content: center;
+}
