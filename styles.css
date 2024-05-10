@@ -2,18 +2,17 @@
 html {
   color-scheme: only dark;
 }
-h1 {
+main h1 {
   text-align: center;
   font-family: 'Briem Hand', 'Source Sans Pro', sans-serif;
   font-weight: normal;
 }
 .video {
   background-image: url(doodle.png);
-  height: 100vh;
-  width: auto;
   background-repeat: no-repeat;
-}
-main {
-  display: grid;
-  justify-content: center;
+  background-size: contain;
+  background-position: center;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
 }
