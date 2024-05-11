@@ -1,7 +1,8 @@
-const video = document.querySelector('video');
+const video = document.getElementById('video');
 
 function Appear() {
   video.style.display = 'block';
+  video.play();
 }
 
 function Dissaperate() {
