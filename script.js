@@ -4,4 +4,4 @@ var vid = document.getElementById("video");
 };
 vid.onload = function(){
    vid.muted=False;
-}
+};
