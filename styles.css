@@ -31,4 +31,5 @@ main h1 {
   width: 100%;
   padding: 20px;
   font-family: 'Freeman', sans-serif;
+  z-index: 9999999;
 }
