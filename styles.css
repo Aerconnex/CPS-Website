@@ -3,9 +3,12 @@ html {
   color-scheme: only dark;
   background-image: url(Bredland_cover.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
   background-size: cover;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 main h1 {
   text-align: center;
