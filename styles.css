@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Freeman&display=swap');
 html {
   color-scheme: only dark;
   background-image: url(Bredland_cover.jpg);
@@ -30,4 +30,5 @@ main h1 {
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
+  font-family: 'Freeman', sans-serif;
 }
