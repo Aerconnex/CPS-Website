@@ -30,6 +30,5 @@ main h1 {
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  font-family: 'Freeman', sans-serif;
-  z-index: 9999999;
+  font-family: 'Freeman', system-ui, ui-sans-serif
 }
