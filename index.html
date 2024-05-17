@@ -9,18 +9,19 @@
 </head>
 <body>
   <main>
+    <div class="video-container" id="video-container">
+      <video id="video" controls autoplay>
+        <source src="Bredland.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
     <div class="pre_parallax">
       <img src="Bredland_cover.jpg" alt="Background Image" class="bg-image">
-      <div class="video-container">
-        <video id="video" controls width="720">
-          <source src="Bredland.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
     </div>
-    <div class="parallax">
+    <div class="parallax hidden" id="parallax">
       <img src="hecker.jpeg" alt="Parallax Background" class="parallax-bg">
     </div>
   </main>
+  <script src="script.js"></script>
 </body>
 </html>
