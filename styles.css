@@ -46,6 +46,3 @@ img{
 .intro{
   backdrop-filter: blur(20px);
 }
-#Paragraph{
-  background-size: fit-content;
-}
