@@ -48,10 +48,19 @@ main {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  z-index: 1;
 }
 
 .parallax-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
   transform: translateZ(-1px) scale(1.5);
+  z-index: -1;
 }
 
 .hidden {
