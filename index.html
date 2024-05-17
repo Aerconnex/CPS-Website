@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="doodle.png" type="image/png" />
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <div class="content">
-    <h1>Trailer</h1>
-    <p>The Battle of Bredland: Comming 3047</p>
-  </div>
-    <main>
-      <br />
-      <div class="video">
-        <center><video id="video" type="video/mp4" width="720" controls>
-          <source src="Bredland.mp4" type="video/mp4" >
-        </video></center>
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="doodle.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <div class="pre_parallax">
+      <img src="Bredland_cover.jpg" alt="Background Image" class="bg-image">
+      <div class="video-container">
+        <video id="video" controls width="720">
+          <source src="Bredland.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
-    </main>
-  </body>
+    </div>
+    <div class="parallax">
+      <img src="hecker.jpeg" alt="Parallax Background" class="parallax-bg">
+    </div>
+  </main>
+
+  <script>
+    document.getElementById("video").addEventListener('ended', function() {
+      this.parentNode.removeChild(this);
+    });
+  </script>
+</body>
 </html>
