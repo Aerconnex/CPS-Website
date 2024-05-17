@@ -6,4 +6,5 @@ video.onended = function() {
   videoContainer.classList.add("hidden"); 
   parallax.classList.remove("hidden"); 
   document.body.style.overflow = 'auto'; 
+  document.querySelector('main').style.overflow = 'auto'; 
 };
