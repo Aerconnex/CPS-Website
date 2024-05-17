@@ -12,17 +12,11 @@ body, main {
 main {
   display: grid;
   min-height: 100vh;
-}
-
-.bg-image, .parallax-bg {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
+  background-image: url(Bredland_cover.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .video-container {
@@ -42,27 +36,4 @@ main {
   height: 100vh;
   width: 100vw;
   object-fit: cover;
-}
-
-.parallax {
-  height: 100vh;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
-.parallax-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  transform: translateZ(-1px) scale(1.5);
-  z-index: -1;
-}
-
-.hidden {
-  display: none;
 }
