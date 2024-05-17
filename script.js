@@ -1,4 +1,3 @@
-var vid = document.getElementById("video");
-   vid.onended = function() {
-   vid.remove()
-};
+document.getElementById("video").addEventListener('ended', function() {
+  this.parentNode.removeChild(this);
+});
