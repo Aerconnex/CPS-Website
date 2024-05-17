@@ -49,3 +49,6 @@ img{
   font-family: 'Freeman', sans-serif;
   color: #000000de;
 }
+main>main{
+  background-image: url('Karel.jpg');
+}
