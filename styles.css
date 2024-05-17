@@ -43,3 +43,7 @@ main {
 img{
   width:100vw;
 }
+.intro{
+  backdrop-filter: blur(20px);
+  background-color: #149BF3;
+}
