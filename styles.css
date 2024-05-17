@@ -37,3 +37,6 @@ main {
   width: 100vw;
   object-fit: cover;
 }
+.hidden{
+  display: none;
+}
