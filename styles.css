@@ -47,3 +47,6 @@ img{
   backdrop-filter: blur(20px);
   background-color: #149BF3;
 }
+#Paragraph{
+  background-size: fit-content;
+}
